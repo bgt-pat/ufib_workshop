@@ -1,0 +1,5 @@
+ax = dataset.plot(x='hours',y=[r"$T_1$", r"$T_2$", r"$T_3$"])
+ax.set_xlabel("Time (s)",fontsize=14)
+ax.set_ylabel("Temperature (K)",fontsize=14)
+ax.set_title("Batch experiment",fontsize=14)
+plt.show()
